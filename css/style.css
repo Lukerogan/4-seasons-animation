@@ -11,6 +11,9 @@ h2 {
     padding:0;
     box-sizing: border-box;
 }
+img {
+    width: 100px;
+}
 section {
     position: relative;
     width: 100%;
@@ -126,4 +129,13 @@ section .set div:nth-child(8)
 {
     transform: scale(0.8) rotate(180deg); 
     filter: blur(4px);
+}
+.spring{
+    background: radial-gradient(#fd8cf4, #96098f);
+}
+.springtxt
+{
+    background: -webkit-linear-gradient(rgb(0, 217, 255),rgb(21, 129, 156));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
