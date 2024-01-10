@@ -133,7 +133,25 @@ section .set div:nth-child(8)
 .spring{
     background: radial-gradient(#fd8cf4, #96098f);
 }
+.summer{
+    background: radial-gradient(rgb(0, 217, 255),rgb(21, 129, 156));
+}
+.winter{
+    background: radial-gradient(#e2dce2, #ccc8cc);
+}
 .springtxt
+{
+    background: -webkit-linear-gradient(rgb(0, 217, 255),rgb(21, 129, 156));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.summertxt
+{
+    background: -webkit-linear-gradient(rgb(255, 95, 3),rgb(209, 154, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wintertxt
 {
     background: -webkit-linear-gradient(rgb(0, 217, 255),rgb(21, 129, 156));
     -webkit-background-clip: text;
