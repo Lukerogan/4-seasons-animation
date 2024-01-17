@@ -18,7 +18,8 @@ section {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: radial-gradient(#333, #000);
+    /* background: radial-gradient(#333, #000); */
+    background-image:url(../img/fallbackground.jpg);
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -131,13 +132,16 @@ section .set div:nth-child(8)
     filter: blur(4px);
 }
 .spring{
-    background: radial-gradient(#fd8cf4, #96098f);
+    /* background: radial-gradient(#fd8cf4, #96098f); */
+    background-image: url(../img/springbackground.jpg);
 }
 .summer{
-    background: radial-gradient(rgb(0, 217, 255),rgb(21, 129, 156));
+    /* background: radial-gradient(rgb(0, 217, 255),rgb(21, 129, 156)); */
+    background-image: url(../img/summerbackground.jpg);
 }
 .winter{
-    background: radial-gradient(#e2dce2, #ccc8cc);
+    /* background: radial-gradient(#e2dce2, #ccc8cc); */
+    background-image: url(../img/winterbackground.jpg);
 }
 .springtxt
 {
@@ -156,61 +160,4 @@ section .set div:nth-child(8)
     background: -webkit-linear-gradient(rgb(0, 217, 255),rgb(21, 129, 156));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-
-body{
-    min-height: 100vh;
-    background-image: url(wall.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    background: rgb(5, 37, 126);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 100;
-}
-
-.logo{
-    font-size: 35px;
-    color: #ff008c;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-.navbar a {
-    position: relative;
-    font-size: 18px;
-    color:#c80be0;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
-}
-
-.navbar a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    width: 0;
-    left: 0;
-    height: 2px;
-    background: #5500fd;
-    transition: .3s;
-}
-
-.navbar a:hover::before {
-    width: 100%;
 }
