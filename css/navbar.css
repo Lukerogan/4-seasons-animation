@@ -55,3 +55,35 @@ body{
 .navbar a:hover::before {
     width: 100%;
 }
+
+.fallnav a{
+    font-family: "Press Start 2P", display;
+
+    background: -webkit-linear-gradient(rgb(255, 174, 0),rgb(255, 60, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+
+.springnav a{
+    font-family: "Press Start 2P", display;
+    background: -webkit-linear-gradient(rgb(0, 217, 255),rgb(21, 129, 156));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.winternav a{
+    font-family: "Press Start 2P", display;
+    background: -webkit-linear-gradient(rgb(0, 217, 255),rgb(21, 129, 156));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+.summernav a{
+    font-family: "Press Start 2P", display;
+    background: -webkit-linear-gradient(rgb(255, 95, 3),rgb(209, 154, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
